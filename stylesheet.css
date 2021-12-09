@@ -1,0 +1,153 @@
+:root{
+    --bgg-color: #F9E6DC; 
+    --txt-color: #464545; 
+    --link-color: rgb(0, 0, 0); 
+    --link-hover-color: rgb(119, 118, 118);
+    --detail-color: #f3868b; 
+}
+
+@font-face {
+    font-family: abril;
+    src: url(font/AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+    font-family: open-sans;
+    src: url(font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: open-sans;
+}
+
+body{
+    background-image: url(./img/bgg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 
+}
+
+.nav-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--link-color);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--link-hover-color);
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  margin-bottom: 10px;
+    
+}
+
+.intro {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.intro h1{
+    font-family: abril;
+    font-size: 80px;
+    color:var(--txt-color);
+    margin-bottom: 20px;
+
+}
+
+span{
+    color: var(--detail-color);
+    font-family: abril;
+}
+
+.services{
+    margin-top: 180px;
+}
+
+.services h2{
+    text-align: center;
+    margin: 50px;
+    color:var(--txt-color);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container div {
+    margin: 40px;
+}
+
+.container h3{
+    margin-bottom: 50px;
+    color: var(--txt-color);
+    font-family: abril;
+    color: var(--detail-color);
+}
+
+.coding, .design, .editing, .some{
+    border: 3px solid #464545;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+
+}
+
+footer{
+    color: #464545;
+    background-color:  #F9E6DC;
+    text-align: center;
+    padding: 21px;
+    height: 140px;
+}
+
+@media screen and (min-width: 720px) {
+
+    nav{
+        flex-direction: row;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    
+}
