@@ -27,7 +27,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 
 }
 
 .nav-container{
@@ -99,7 +98,6 @@ span{
     color:var(--txt-color);
 }
 
-
 .container {
     display: flex;
     flex-direction: column;
@@ -117,7 +115,7 @@ span{
     color: var(--detail-color);
 }
 
-.coding, .design, .editing, .some{
+.design, .editing, .some{
     border: 3px solid #464545;
     border-radius: 20px;
     padding: 40px;
@@ -142,11 +140,11 @@ footer{
         flex-direction: row;
     }
 
-    .container{
+    .box1{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        
+
     }
 
     
