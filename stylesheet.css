@@ -28,6 +28,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+/* Nav css start */
 
 .nav-container{
     position: relative;
@@ -69,6 +70,10 @@ nav ul li a:hover {
     
 }
 
+/* Nav css slut */
+
+/* Home css start */
+
 .intro {
     text-align: center;
     margin-top: 100px;
@@ -86,6 +91,7 @@ nav ul li a:hover {
 span{
     color: var(--detail-color);
     font-family: abril;
+    
 }
 
 .services{
@@ -98,17 +104,14 @@ span{
     color:var(--txt-color);
 }
 
-.container {
+.box {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container div {
-    margin: 40px;
-}
 
-.container h3{
+.box h3{
     margin-bottom: 50px;
     color: var(--txt-color);
     font-family: abril;
@@ -126,6 +129,98 @@ span{
 
 }
 
+/* Home css slut */
+
+/* Portfolio css start */
+
+.work{
+    margin-top: 60px;
+}
+
+.work ul li{
+    margin: 30px;
+    list-style: none;
+}
+
+.work ul li a{
+    font-size: 60px;
+    text-decoration: none;
+    color: var(--txt-color);
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 5px var(--bgg-color);
+
+}
+
+.work ul li a:hover {
+    color: var(--detail-color);
+}
+
+
+/* About css start */
+
+
+.img-me{
+    display: block;
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.info{
+    margin: 30px;
+}
+
+
+.info a {
+    background-color: var(--bgg-color);
+    color: var(--txt-color);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    border: 2px solid var(--detail-color);
+    box-shadow: 4px 4px var(--detail-color);
+}
+
+.info a:hover{
+    color: var(--detail-color);
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h3{
+    margin-bottom: 50px;
+    color: var(--txt-color);
+    font-family: abril;
+    color: var(--detail-color);
+}
+
+.skills, .experience {
+    border: 3px solid #464545;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+}
+
+/* About css slut */
+
+/* Footer */
+
 footer{
     color: #464545;
     background-color:  #F9E6DC;
@@ -140,12 +235,55 @@ footer{
         flex-direction: row;
     }
 
-    .box1{
+    .intro h1{
+        font-size: 100px;
+    }
+
+    .box{
         display: flex;
         flex-direction: row;
         justify-content: center;
-
+        
     }
 
-    
+    .design, .editing, .some{
+        margin: 30px;
+    }
+
+    .info {
+        margin-left: 80px;
+        margin-top: 170px;
+    }
+    .info p{
+        width: 800px;
+    }
+
+    .img-me{
+        float: right;
+        margin-right: 80px;
+    }
+
+    .clr{
+        clear: both;
+    }
+
+
+    .work{
+        margin: 200px;
+    }
+
+    .work ul li a{
+        font-size: 100px;
+        
+    }
+    .about{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .skills, .experience{
+        margin: 30px;
+    }
+
+
 }
