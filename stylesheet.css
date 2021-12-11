@@ -116,6 +116,7 @@ span{
     color: var(--txt-color);
     font-family: abril;
     color: var(--detail-color);
+    text-shadow: 2px 2px var(--bgg-color);
 }
 
 .design, .editing, .some{
@@ -206,6 +207,7 @@ span{
     color: var(--txt-color);
     font-family: abril;
     color: var(--detail-color);
+    text-shadow: 2px 2px var(--bgg-color);
 }
 
 .skills, .experience {
@@ -251,16 +253,16 @@ footer{
     }
 
     .info {
-        margin-left: 80px;
-        margin-top: 170px;
+        margin-left: 200px;
+        margin-top: 200px;
     }
     .info p{
-        width: 800px;
+        width: 650px;
     }
 
     .img-me{
         float: right;
-        margin-right: 80px;
+        margin: 100px 200px 100px 30px;
     }
 
     .clr{
