@@ -221,6 +221,118 @@ span{
 
 /* About css slut */
 
+/* Rumrejsen css start */
+
+.rumrejsen{
+    margin-top: 100px;
+}
+
+.rumrejsen h2{
+    font-family: abril;
+    color: var(--detail-color);
+    margin: 20px;
+}
+
+.rumrejsen p{
+    margin: 20px;
+}
+
+.img-rum1 {
+    display: block;
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+/* Rumrejsen css slut */
+
+/* LivsLæring css start */
+
+.livslæring{
+    margin-top: 100px;
+}
+
+.livslæring h2{
+    font-family: abril;
+    color: var(--detail-color);
+    margin: 20px;
+}
+
+.livslæring p{
+    margin: 20px;
+}
+
+.img-livslæring {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.img-livslæring2 {
+    display: block;
+    border-radius: 20px;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* LivsLæring css slut */
+
+/* Dans css start */
+
+.dans{
+    margin-top: 100px;
+}
+
+.dans h2{
+    font-family: abril;
+    color: var(--detail-color);
+    margin: 20px;
+}
+
+.dans p{
+    margin: 20px;
+}
+
+.img-dans {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.img-dans2 {
+    display: block;
+    border-radius: 20px;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* Dans css slut */
+
+
+
 /* Footer */
 
 footer{
@@ -269,7 +381,6 @@ footer{
         clear: both;
     }
 
-
     .work{
         margin: 200px;
     }
@@ -287,5 +398,51 @@ footer{
         margin: 30px;
     }
 
+    .img-rum1{
+        width: 650px;
+        height: auto;
+    }
+
+    .rumrejsen{
+        margin: 70px;
+    }
+
+    .img-livslæring{
+        width: 650px;
+        height: auto;
+    }
+
+    .img-livslæring2{
+        float: right;
+        margin: 100px 200px 100px 30px;
+    }
+
+    .livslæring{
+        margin-left: 200px;
+        margin-top: 130px;
+    }
+
+    .livslæring p {
+        width: 550px;
+    }
+
+    .img-dans{
+        width: 650px;
+        height: auto;
+    }
+
+    .img-dans2{
+        float: right;
+        margin: 100px 200px 100px 30px;
+    }
+
+    .dans{
+        margin-left: 200px;
+        margin-top: 160px;
+    }
+
+    .dans p {
+        width: 550px;
+    }
 
 }
